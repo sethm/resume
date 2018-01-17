@@ -1,7 +1,6 @@
-#+TITLE: Résumé
-#+AUTHOR: Seth J. Morabito
-#+EMAIL: web@loomcom.com
-#+OPTIONS: toc:nil num:nil html-postamble:nil html-preamble:nil date:nil
+#+TITLE: Seth J. Morabito
+#+OPTIONS: toc:nil num:nil author:nil
+#+OPTIONS: html-postamble:nil html-preamble:nil date:nil
 #+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="resume.css" />
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS: [letterpaper,10pt]
@@ -34,8 +33,9 @@
 #+LATEX_HEADER:   \vspace{-4pt}\scshape\raggedright\large
 #+LATEX_HEADER: }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-
-* Contact
+#+BEGIN_LATEX
+\vspace{-5em}
+#+END_LATEX
 
 #+BEGIN_CENTER
 web@loomcom.com \bullet
@@ -44,7 +44,7 @@ web@loomcom.com \bullet
 [[https://twitter.com/twylo/][@Twylo]]
 #+END_CENTER
 
-* Summary
+* Profile
 
 Accomplished, passionate, driven and creative programmer with over a
 decade of experience solving problems at every level of the software
@@ -54,7 +54,6 @@ desire to explore, create, and solve. Comfortable on both small and
 large systems. Core skills center around backend software for Internet
 applications, object oriented design, test driven development, tool
 development, and API design. Never happy standing still.
-
 
 * Core Skills
 
