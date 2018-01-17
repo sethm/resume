@@ -40,7 +40,7 @@
 #+BEGIN_CENTER
 web@loomcom.com \bullet
 [[https://github.com/sethm/][github.com/sethm]] \bullet
-[[https://loomcom.com/][loomcom.com]] \bullet
+[[https://loomcom.com/blog][loomcom.com/blog]] \bullet
 [[https://twitter.com/twylo/][@Twylo]]
 #+END_CENTER
 
