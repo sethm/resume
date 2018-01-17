@@ -64,7 +64,7 @@ development, and API design. Never happy standing still.
 *Technologies:* Linux, Apache Kafka, Docker, InfluxDB, HPE Vertica, MySQL,
 PostgreSQL.
 
-*Other:* Embedded Development (Atmel AVR, ARM), Hacking the Gibson.
+*Other:* Embedded Development (Atmel AVR, ARM).
 
 * Work Experience
 
@@ -159,7 +159,7 @@ libraries world-wide to preserve digital journals.
 The 3B2 was a small, multi-user UNIX computer introduced in 1984 by
 AT&T.  It was the primary porting platform for UNIX System V Release
 3, but has since faded into obscurity. I built a full system emulator
-to allow running unmodified UNIX SVR3 software, for historical
+to allow running unmodified UNIX SVR3 software for historical
 preservation. This project involved a tremendous amount of reverse
 engineering both hardware and software, as internals documentation was
 unavailable. Additionally, WE32100 assembler and disassemblers had to
