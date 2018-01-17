@@ -133,7 +133,7 @@ Apache, Varnish, RabbitMQ, and Heroku.
 *** May 2004 \ndash December 2007
 
 Software Engineer with the LOCKSS Program at Stanford University.
-LOCKSS ("Lots Of Copies Keeps Stuff Safe") is an Open Source,
+LOCKSS ("Lots Of Copies Keep Stuff Safe") is an Open Source,
 distributed, peer-to-peer digital content preservation system used by
 libraries world-wide to preserve digital journals.
 
