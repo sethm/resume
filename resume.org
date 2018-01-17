@@ -1,0 +1,182 @@
+#+TITLE: Résumé
+#+AUTHOR: Seth J. Morabito
+#+EMAIL: web@loomcom.com
+#+OPTIONS: toc:nil num:nil html-postamble:nil html-preamble:nil date:nil
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="resume.css" />
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [letterpaper,10pt]
+#+LATEX_HEADER: \usepackage{latexsym}
+#+LATEX_HEADER: \usepackage[empty]{fullpage}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage{marvosym}
+#+LATEX_HEADER: \usepackage[usenames,dvipsnames]{color}
+#+LATEX_HEADER: \usepackage{verbatim}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{tgbonum}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \fancyfoot{}
+#+LATEX_HEADER: \renewcommand{\headrulewidth}{0pt}
+#+LATEX_HEADER: \renewcommand{\footrulewidth}{0pt}
+#+LATEX_HEADER: \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+#+LATEX_HEADER: \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
+#+LATEX_HEADER: \addtolength{\oddsidemargin}{-0.25in}
+#+LATEX_HEADER: \addtolength{\marginparwidth}{-0.25in}
+#+LATEX_HEADER: \addtolength{\topmargin}{-.5in}
+#+LATEX_HEADER: \addtolength{\textwidth}{0.5in}
+#+LATEX_HEADER: \addtolength{\textheight}{1.0in}
+#+LATEX_HEADER: \urlstyle{same}
+#+LATEX_HEADER: \raggedbottom
+#+LATEX_HEADER: \raggedright
+#+LATEX_HEADER: \setlength{\tabcolsep}{0in}
+#+LATEX_HEADER: \titleformat{\section}{
+#+LATEX_HEADER:   \vspace{-4pt}\scshape\raggedright\large
+#+LATEX_HEADER: }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+* Contact
+
+#+BEGIN_CENTER
+web@loomcom.com \bullet
+[[https://github.com/sethm/][github.com/sethm]] \bullet
+[[https://loomcom.com/][loomcom.com]] \bullet
+[[https://twitter.com/twylo/][@Twylo]]
+#+END_CENTER
+
+* Summary
+
+Accomplished, passionate, driven and creative programmer with over a
+decade of experience solving problems at every level of the software
+engineering lifecycle, from requirements analysis to
+deployment. Strong team player with a love of the craft and a constant
+desire to explore, create, and solve. Comfortable on both small and
+large systems. Core skills center around backend software for Internet
+applications, object oriented design, test driven development, tool
+development, and API design. Never happy standing still.
+
+
+* Core Skills
+
+*Primary Languages:* Java, C, C++, Ruby.
+
+*Secondary Languages:* Python, Rust, Go, JavaScript.
+
+*Technologies:* Linux, Apache Kafka, Docker, InfluxDB, HPE Vertica, MySQL,
+PostgreSQL.
+
+*Other:* Embedded Development (Atmel AVR, ARM), Hacking the Gibson.
+
+* Work Experience
+
+** Akamai Technologies
+*** /Senior Software Engineer II/
+*** November 2017 \ndash Present
+
+I became an Akamai employee following Nominum's acquisition by Akamai
+Technologies. I continue to work on Nominum technologies that were
+part of the acquisition.
+
+** Nominum, Inc.
+*** /Senior Staff Engineer/
+*** September 2013 \ndash November 2017
+
+Built several core technologies used at Nominum to provide our N2
+solutions, including ThreatAvert, Engage, and Reach.
+
+- Designed and built a RADIUS, DHCP and DIAMETER IP Address change
+  tracking solution capable of handling over 10,000 IP address changes
+  per second in a production environment.
+
+- Lead engineer on an internal high performance reporting engine back
+  end capable of processing 1.5 million transactions per second at
+  scale.
+
+- Implemented several new features on Nominum's high-performance HTTP
+  Proxy software, deployed to millions of end users world-wide.
+
+- Worked closely with geographically diverse customers to build robust
+  solutions to their problems.
+
+** Glyde Corporation
+*** /Senior Software Engineer/
+*** December 2007 \ndash July 2013
+
+As an early employee, helped build a popular and growing
+Consumer-to-Consumer online marketplace with Ruby on Rails, MySQL,
+Apache, Varnish, RabbitMQ, and Heroku.
+
+- Designed and built a fraud detection and prevention system that
+  reduced fraudulent activity by 80% and significantly increased
+  customer satisfaction.
+
+- Architected and wrote tools to perform competitive pricing analysis
+  to ensure healthy market prices.
+
+- Spearheaded integrated of the Glyde Marketplace with PayPal (payment
+  and withdrawal), and Twilio (SMS messaging).
+
+- Implemented a cohort analysis system to analyze buying and selling
+  patterns to improve business strategy decision making.
+
+- Developed a system to publish daily Glyde inventory to comparison
+  shopping sites, increasing customer awareness and traffic.
+
+- Improved developer productivity by implementing simulated external
+  services for use during development and testing.
+
+- Developed frameworks for unified package tracking and delivery
+  notification via several shipping companies.
+
+** Stanford University
+*** /Software Engineer/
+*** May 2004 \ndash December 2007
+
+Software Engineer with the LOCKSS Program at Stanford University.
+LOCKSS ("Lots Of Copies Keeps Stuff Safe") is an Open Source,
+distributed, peer-to-peer digital content preservation system used by
+libraries world-wide to preserve digital journals.
+
+- Architected and implemented major portions of the new LOCKSS
+  peer-to-peer polling protocol (LCAP V3), resulting in a ten-fold
+  improvement in content auditing and repair efficiency over the
+  previous implementation.
+
+- Created a complete testing environment in Python for stress and
+  integration testing of the LOCKSS Network.
+
+- Designed and built a dynamic Java plugin extension system for
+  automatically finding and updating running LOCKSS systems with new
+  functionality.
+
+- Drove the creation of internal project management tools using Ruby
+  on Rails, streamlining the ability to publish new content to the
+  LOCKSS network.
+
+* Personal Projects
+*** AT&T 3B2/400 Emulator
+*** https://loomcom.com/3b2/emulator/
+
+The 3B2 was a small, multi-user UNIX computer introduced in 1984 by
+AT&T.  It was the primary porting platform for UNIX System V Release
+3, but has since faded into obscurity. I built a full system emulator
+to allow running unmodified UNIX SVR3 software, for historical
+preservation. This project involved a tremendous amount of reverse
+engineering both hardware and software, as internals documentation was
+unavailable. Additionally, WE32100 assembler and disassemblers had to
+be written from scratch. It is released as part of the SIMH historical
+computer emulation framework.
+
+*** Symon 6502 Emulator
+*** https://github.com/sethm/symon/
+
+Symon is an 8-bit system emulator, including full emulation of the
+6502 CPU, 6551 ACIA, 6522 PIA, 6525 CRT controller, RAM, and ROM. It
+is released under the MIT Open Source license.
+
+* Education
+
+** Cornell University
+*** 1992 \ndash 1995
+
+Three years toward a BA in Linguistics.
