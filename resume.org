@@ -33,9 +33,7 @@
 #+LATEX_HEADER:   \vspace{-4pt}\scshape\raggedright\large
 #+LATEX_HEADER: }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-#+BEGIN_LATEX
-\vspace{-5em}
-#+END_LATEX
+#+LATEX: \vspace{-5em}
 
 #+BEGIN_CENTER
 web@loomcom.com \bullet
@@ -57,14 +55,14 @@ development, and API design. Never happy standing still.
 
 * Core Skills
 
-*Primary Languages:* Java, C, C++, Ruby.
+*Primary Languages:* Java, C, C++, Rust, JavaScript
 
-*Secondary Languages:* Python, Rust, Go, JavaScript.
+*Secondary Languages:* Ruby, Python, Go
 
-*Technologies:* Linux, Apache Kafka, Docker, InfluxDB, HPE Vertica, MySQL,
-PostgreSQL.
+*Technologies:* Object-Oriented Design, Linux, Apache Kafka, Docker,
+InfluxDB, Vertica, MySQL, PostgreSQL
 
-*Other:* Embedded Development (Atmel AVR, ARM).
+*Other:* Embedded Development (Atmel AVR, ARM)
 
 * Work Experience
 
