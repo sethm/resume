@@ -12,19 +12,18 @@
 #+LATEX_HEADER: \usepackage{verbatim}
 #+LATEX_HEADER: \usepackage{enumitem}
 #+LATEX_HEADER: \usepackage{fancyhdr}
-#+LATEX_HEADER: \usepackage{tgbonum}
+#+LATEX_HEADER: \usepackage{mathptmx}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
 #+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \pagenumbering{gobble}
 #+LATEX_HEADER: \fancyhf{}
 #+LATEX_HEADER: \fancyfoot{}
 #+LATEX_HEADER: \renewcommand{\headrulewidth}{0pt}
 #+LATEX_HEADER: \renewcommand{\footrulewidth}{0pt}
 #+LATEX_HEADER: \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
 #+LATEX_HEADER: \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{2pt plus 2pt minus 2pt}
-#+LATEX_HEADER: \addtolength{\oddsidemargin}{-0.25in}
-#+LATEX_HEADER: \addtolength{\marginparwidth}{-0.25in}
-#+LATEX_HEADER: \addtolength{\topmargin}{-.5in}
-#+LATEX_HEADER: \addtolength{\textwidth}{0.5in}
-#+LATEX_HEADER: \addtolength{\textheight}{1.0in}
+#+LATEX_HEADER: \addtolength{\topmargin}{-0.5in}
+#+LATEX_HEADER: \addtolength{\textheight}{0.5in}
 #+LATEX_HEADER: \urlstyle{same}
 #+LATEX_HEADER: \raggedbottom
 #+LATEX_HEADER: \raggedright
@@ -57,7 +56,7 @@ still.
 
 - Languages: :: Extensive professional experience with Java, Rust, C,
   and Ruby.  Other work and personal project expericne with C++,
-  JavaScript,and Python.
+  JavaScript, and Python.
 - Technologies: :: Linux, Docker, Apache Kafka, InfluxDB, Vertica,
   PostgreSQL.
 - Fundamentals: :: Network & Web, Stream Processing, Object-Oriented
@@ -80,13 +79,13 @@ still.
   potential threats, and allows our network to gracefully handle
   datacenter failover.
 
-** Nominum, Inc.
+** Nominum, Inc. /(Acquired by Akamai)/
 *** /Senior Staff Engineer/
 *** September 2013 \ndash November 2017
 
-- Designed a lock-free data structure to hold hundreds of thousands
-  of URLs in our HTTP proxy solution, reducing memory footprint and
-  improving response time.
+- Designed a lock-free data structure to hold hundreds of thousands of
+  URLs in our HTTP proxy, reducing memory footprint and improving
+  response time.
 
 - Built a customer reporting solution using HPE Vertica and InfluxDB
   capable of sustained ingest of thousands of rows per second.
@@ -108,7 +107,7 @@ Innovative Consumer-to-Consumer marketplace.
 - Architected and wrote tools to perform competitive pricing analysis
   to ensure healthy market prices.
 
-- Spearheaded integrated of the Glyde Marketplace with PayPal (payment
+- Spearheaded integration of the Glyde Marketplace with PayPal (payment
   and withdrawal), and Twilio (SMS messaging).
 
 - Implemented a cohort analysis system to analyze buying and selling
@@ -151,13 +150,13 @@ libraries world-wide to preserve digital journals.
 
 The 3B2 was a small, multi-user UNIX computer introduced in 1984 by
 AT&T.  It was the primary porting platform for UNIX System V Release
-3, but has since faded into obscurity. I built a full system emulator
+3, but has since faded into obscurity. I built a full system simulator
 to allow running unmodified UNIX SVR3 software for historical
 preservation. This project involved a tremendous amount of reverse
 engineering both hardware and software, as internals documentation was
 unavailable. Additionally, WE32100 assembler and disassemblers had to
 be written from scratch. It is released as part of the SIMH historical
-computer emulation framework.
+computer simulation framework.
 
 *** Symon 6502 Emulator
 *** https://github.com/sethm/symon/
