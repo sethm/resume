@@ -37,71 +37,69 @@
 
 #+BEGIN_CENTER
 web@loomcom.com \bullet
-[[https://github.com/sethm/][github.com/sethm]] \bullet
-[[https://loomcom.com/blog][loomcom.com/blog]] \bullet
-[[https://twitter.com/twylo/][@Twylo]]
+github.com/sethm \bullet
+loomcom.com
 #+END_CENTER
 
 * Profile
 
-Accomplished, passionate, driven and creative programmer with over a
-decade of experience solving problems at every level of the software
-engineering lifecycle, from requirements analysis to
-deployment. Strong team player with a love of the craft and a constant
-desire to explore, create, and solve. Comfortable on both small and
-large systems. Core skills center around backend software for Internet
-applications, object oriented design, test driven development, tool
-development, and API design. Never happy standing still.
+Accomplished, passionate, driven and creative software engineer with
+extensive experience solving problems at every level of the
+development lifecycle, from requirements analysis to deployment.
+Strong team player with a love of the craft and a constant desire to
+explore, create, and solve.  Comfortable working in both small and
+large systems.  Core skills center around backend software for
+Internet applications, object-oriented design, test driven
+development, tool development, and API design. Never happy standing
+still.
 
 * Core Skills
 
-*Primary Languages:* Java, C, C++, Rust, JavaScript
-
-*Secondary Languages:* Ruby, Python, Go
-
-*Technologies:* Object-Oriented Design, Linux, Apache Kafka, Docker,
-InfluxDB, Vertica, MySQL, PostgreSQL
-
-*Other:* Embedded Development (Atmel AVR, ARM)
+- Languages: :: Extensive professional experience with Java, Rust, C,
+  and Ruby.  Other work and personal project expericne with C++,
+  JavaScript,and Python.
+- Technologies: :: Linux, Docker, Apache Kafka, InfluxDB, Vertica,
+  PostgreSQL.
+- Fundamentals: :: Network & Web, Stream Processing, Object-Oriented
+  Design, Functional Programming, Test-Driven Development, Continuous
+  Delivery, Virtualization.
 
 * Work Experience
 
 ** Akamai Technologies
 *** /Senior Software Engineer II/
-*** November 2017 \ndash Present
+*** November 2017 \ndash March 2022
 
-I became an Akamai employee following Nominum's acquisition by Akamai
-Technologies. I continue to work on Nominum technologies that were
-part of the acquisition.
+- Designed and built a Rust application that reuses existing C++
+  libraries and handles consuming over 10,000 Apache Kafka messages
+  per second, providing near real-time monitoring of our network's
+  provisioned state.
+
+- Engineered a Kafka Streams data aggregation and event detection
+  system that allows our customers to message their subscribers about
+  potential threats, and allows our network to gracefully handle
+  datacenter failover.
 
 ** Nominum, Inc.
 *** /Senior Staff Engineer/
 *** September 2013 \ndash November 2017
 
-Built several core technologies used at Nominum to provide our N2
-solutions, including ThreatAvert, Engage, and Reach.
+- Designed a lock-free data structure to hold hundreds of thousands
+  of URLs in our HTTP proxy solution, reducing memory footprint and
+  improving response time.
 
-- Designed and built a RADIUS, DHCP and DIAMETER IP Address change
-  tracking solution capable of handling over 10,000 IP address changes
-  per second in a production environment.
+- Built a customer reporting solution using HPE Vertica and InfluxDB
+  capable of sustained ingest of thousands of rows per second.
 
-- Lead engineer on an internal high performance reporting engine back
-  end capable of processing 1.5 million transactions per second at
-  scale.
-
-- Implemented several new features on Nominum's high-performance HTTP
-  Proxy software, deployed to millions of end users world-wide.
-
-- Worked closely with geographically diverse customers to build robust
-  solutions to their problems.
+- Designed and built a RADIUS and DHCP IP Address change tracking
+  system capable of handling over 20,000 IP Address changes per
+  second.
 
 ** Glyde Corporation
 *** /Senior Software Engineer/
 *** December 2007 \ndash July 2013
 
-As an early employee, helped build a popular and growing
-Consumer-to-Consumer online marketplace with Ruby on Rails, MySQL,
-Apache, Varnish, RabbitMQ, and Heroku.
+Innovative Consumer-to-Consumer marketplace.
 
 - Designed and built a fraud detection and prevention system that
   reduced fraudulent activity by 80% and significantly increased
@@ -119,11 +117,8 @@ Apache, Varnish, RabbitMQ, and Heroku.
 - Developed a system to publish daily Glyde inventory to comparison
   shopping sites, increasing customer awareness and traffic.
 
-- Improved developer productivity by implementing simulated external
-  services for use during development and testing.
-
-- Developed frameworks for unified package tracking and delivery
-  notification via several shipping companies.
+- Designed and wrote frameworks for unified package tracking and
+  delivery notification via several shipping companies.
 
 ** Stanford University
 *** /Software Engineer/
@@ -151,8 +146,8 @@ libraries world-wide to preserve digital journals.
   LOCKSS network.
 
 * Personal Projects
-*** AT&T 3B2/400 Emulator
-*** https://loomcom.com/3b2/emulator/
+*** AT&T 3B2/400 Simulator
+*** [[https://loomcom.com/3b2/emulator.html]]
 
 The 3B2 was a small, multi-user UNIX computer introduced in 1984 by
 AT&T.  It was the primary porting platform for UNIX System V Release
