@@ -104,20 +104,11 @@ Innovative Consumer-to-Consumer marketplace.
   reduced fraudulent activity by 80% and significantly increased
   customer satisfaction.
 
-- Architected and wrote tools to perform competitive pricing analysis
-  to ensure healthy market prices.
-
 - Spearheaded integration of the Glyde Marketplace with PayPal (payment
   and withdrawal), and Twilio (SMS messaging).
 
 - Implemented a cohort analysis system to analyze buying and selling
   patterns to improve business strategy decision making.
-
-- Developed a system to publish daily Glyde inventory to comparison
-  shopping sites, increasing customer awareness and traffic.
-
-- Designed and wrote frameworks for unified package tracking and
-  delivery notification via several shipping companies.
 
 ** Stanford University
 *** /Software Engineer/

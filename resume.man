@@ -1,0 +1,132 @@
+.\" groff insists on hyphenating MariaDB as Mari-aDB, and that cannot
+.\" stand.
+.hw Maria-DB
+.TH resume 7 "11 Nov 2022" "1.0" "Seth Morabito's Resume"
+.SH NAME
+resume \- Seth Morabito's Resume
+.SH SYNOPSIS
+.B man
+\[char46]/resume.man
+.SH DESCRIPTION
+Accomplished, passionate, driven and creative software engineer with
+extensive experience solving problems at every level of the
+development lifecycle, from requirements analysis to
+deployment. Strong team player with a love of the craft and a constant
+desire to explore, create, and solve. Comfortable working in both
+small and large systems. Core skills center around backend software
+for Internet applications, object-oriented design, test driven
+development, tool development, and API design. Never happy standing
+still.
+.SH SKILLS
+\fBLanguages\fP
+.RS 4
+Extensive professional experience with Java, Rust, C, and Ruby.
+Other work and personal project experience with Python, C++, and
+JavaScript.
+.RE
+.sp
+\fBTechnologies\fP
+.RS 4
+Linux, Docker, Apache Kafka, InfluxDB, Vertica, PostgreSQL, MariaDB.
+.RE
+.sp
+\fBFundamentals\fP
+.RS 4
+Network & Web, Stream Processing, Object-Oriented Design, Functional
+Programming, Test-Driven Development, Continuous Delivery,
+Virtualization.
+.RE
+.SH EXPERIENCE
+\fBAkamai Technologies\fP
+.br
+\fBSenior Software Engineer II\fP
+.br
+November 2017\(enMarch 2022
+.IP \(bu 2
+Designed and built a Rust application that reuses existing C++
+libraries and handles consuming over 10,000 Apache Kafka messages per
+second, providing near real-time monitoring of our network's
+provisioned state.
+.IP \(bu 2
+Engineered a Kafka Streams data aggregation and event detection system
+that allows our customers to message their subscribers about potential
+threats, and allows our network to gracefully handle datacenter
+failover.
+.PP
+\fBNominum (Acquired by Akamai)\fP
+.br
+\fBSenior Software Engineer\fP
+.br
+October 2013\(enNovember 2017
+.IP \(bu 2
+Designed a lock-free data structure to hold hundreds of thousands of
+URLs in our HTTP proxy, reducing memory footprint and improving
+response time.
+.IP \(bu 2
+Built a customer reporting solution using HPE Vertica and InfluxDB
+capable of sustained ingest of thousands of rows per second.
+.IP \(bu 2
+Designed and built a RADIUS and DHCP IP Address change tracking system
+capable of handling over 20,000 IP Address changes per second.
+.PP
+\fBGlyde Corporation\fP
+.br
+\fBSenior Software Engineer\fP
+.br
+December 2007\(enJuly 2013
+.PP
+Innovative Consumer-to-Consumer marketplace.
+.IP \(bu 2
+Designed and built a fraud detection and prevention system that
+reduced fraudulent activity by 80% and significantly increased
+customer satisfaction.
+.IP \(bu 2
+Spearheaded integration of the Glyde Marketplace with PayPal (payment
+and withdrawal), and Twilio (SMS messaging).
+.IP \(bu 2
+Implemented a cohort analysis system to analyze buying and selling
+patterns to improve business strategy decision making.
+.PP
+\fBStanford University\fP
+.br
+\fBSoftware Engineer\fP
+.br
+May 2004\(enDecember 2007
+.PP
+Software Engineer with the LOCKSS Program at Stanford University.
+LOCKSS ("Lots of Copies Keep Stuff Safe") is an Open Source,
+distributed, peer-to-peer digital content preservation system used by
+libraries world-wide to preserve digital journals.
+.IP \(bu 2
+Architected and implemented major portions of the new LOCKSS
+peer-to-peer polling protocol (LCAP V3), resulting in a ten-fold
+improvement in content auditing and repair efficiency over the
+previous implementation.
+.IP \(bu
+Created a complete testing environment in Python for stress and
+integration testing of the LOCKSS Network.
+.IP \(bu
+Designed and built a dynamic Java plugin extension system for
+automatically finding and updating running LOCKSS systems with new
+functionality.
+.PP
+.SH BUGS
+Spends too much time formatting resume in \fIgroff\fP.
+.SH SEE ALSO
+\fBHome Page\fP
+.RS 4
+.UR https://loomcom.com/
+.UE
+.RE
+.sp
+\fBPortfolio\fP
+.RS 4
+.UR https://loomcom.com/portfolio/
+.UE
+.RE
+.sp
+\fBLinkedIn\fP
+.RS 4
+.UR https://linkedin.com/in/sethmorabito/
+.UE
+.RE
