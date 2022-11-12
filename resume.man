@@ -110,6 +110,13 @@ Designed and built a dynamic Java plugin extension system for
 automatically finding and updating running LOCKSS systems with new
 functionality.
 .PP
+.SH EDUCATION
+\fBCornell University\fP
+.br
+1992\(en1995
+.PP
+Three years toward a BA in Linguistics.
+.PP
 .SH BUGS
 Spends too much time formatting resume in \fIgroff\fP.
 .SH SEE ALSO
@@ -119,9 +126,9 @@ Spends too much time formatting resume in \fIgroff\fP.
 .UE
 .RE
 .sp
-\fBPortfolio\fP
+\fBGitHub\fP
 .RS 4
-.UR https://loomcom.com/portfolio/
+.UR https://github.com/sethm/
 .UE
 .RE
 .sp
