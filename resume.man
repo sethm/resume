@@ -4,6 +4,10 @@
 .TH resume 7 "11 Nov 2022" "1.0" "Seth Morabito's Resume"
 .SH NAME
 resume \- Seth Morabito's Resume
+.SH AUTHOR
+Seth Morabito
+.MT web@loomcom.com
+.ME
 .SH SYNOPSIS
 .B man
 \[char46]/resume.man
