@@ -25,8 +25,8 @@ still.
 \fBLanguages\fP
 .RS 4
 Extensive professional experience with Java, Rust, C, and Ruby.
-Other work and personal project experience with Python, C++, and
-JavaScript.
+Other work and personal project experience with Python, JavaScript,
+and C++.
 .RE
 .sp
 \fBTechnologies\fP
