@@ -14,10 +14,10 @@ Seth Morabito
 .SH DESCRIPTION
 Accomplished, passionate, driven and creative software engineer with
 extensive experience solving problems at every level of the
-development lifecycle, from requirements analysis to
+development life cycle, from requirements analysis to
 deployment. Strong team player with a love of the craft and a constant
 desire to explore, create, and solve. Comfortable working in both
-small and large systems. Core skills center around backend software
+small and large systems. Core skills center around back end software
 for Internet applications, object-oriented design, test driven
 development, tool development, and API design. Never happy standing
 still.
@@ -54,8 +54,8 @@ provisioned state.
 .IP \(bu 2
 Engineered a Kafka Streams data aggregation and event detection system
 that allows our customers to message their subscribers about potential
-threats, and allows our network to gracefully handle datacenter
-failover.
+threats, and allows our network to gracefully handle data center
+fail-over.
 .PP
 \fBNominum (Acquired by Akamai)\fP
 .br

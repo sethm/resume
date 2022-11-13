@@ -47,7 +47,7 @@ extensive experience solving problems at every level of the
 development lifecycle, from requirements analysis to deployment.
 Strong team player with a love of the craft and a constant desire to
 explore, create, and solve.  Comfortable working in both small and
-large systems.  Core skills center around backend software for
+large systems.  Core skills center around back end software for
 Internet applications, object-oriented design, test driven
 development, tool development, and API design. Never happy standing
 still.
@@ -77,7 +77,7 @@ still.
 - Engineered a Kafka Streams data aggregation and event detection
   system that allows our customers to message their subscribers about
   potential threats, and allows our network to gracefully handle
-  datacenter failover.
+  data center fail-over.
 
 ** Nominum, Inc. /(Acquired by Akamai)/
 *** /Senior Staff Engineer/
