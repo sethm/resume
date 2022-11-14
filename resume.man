@@ -14,11 +14,11 @@ Seth Morabito
 .SH DESCRIPTION
 Accomplished, passionate, driven and creative software engineer with
 extensive experience solving problems at every level of the
-development life cycle, from requirements analysis to
-deployment. Strong team player with a love of the craft and a constant
-desire to explore, create, and solve. Comfortable working in both
-small and large systems. Core skills center around back end software
-for Internet applications, object-oriented design, test driven
+development life cycle, from requirements analysis to deployment.
+Strong team player with a love of the craft and a constant desire to
+explore, create, and solve. Comfortable working in both small and
+large systems. Core skills center around back end software for
+Internet applications, object-oriented design, test driven
 development, tool development, and API design. Never happy standing
 still.
 .SH SKILLS
@@ -31,7 +31,7 @@ and C++.
 .sp
 \fBTechnologies\fP
 .RS 4
-Linux, Docker, Apache Kafka, InfluxDB, Vertica, PostgreSQL, MariaDB.
+Linux, Apache Kafka, GraphQL, Docker, InfluxDB, Vertica, PostgreSQL.
 .RE
 .sp
 \fBFundamentals\fP

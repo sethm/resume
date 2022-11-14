@@ -57,8 +57,8 @@ still.
 - Languages: :: Extensive professional experience with Java, Rust, C,
   and Ruby.  Other work and personal project expericne with C++,
   JavaScript, and Python.
-- Technologies: :: Linux, Docker, Apache Kafka, InfluxDB, Vertica,
-  PostgreSQL.
+- Technologies: :: Linux, Apache Kafka, GraphQL, Docker, InfluxDB,
+  Vertica, PostgreSQL.
 - Fundamentals: :: Network & Web, Stream Processing, Object-Oriented
   Design, Functional Programming, Test-Driven Development, Continuous
   Delivery, Virtualization.
