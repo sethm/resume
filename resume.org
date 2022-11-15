@@ -55,7 +55,7 @@ still.
 * Core Skills
 
 - Languages: :: Extensive professional experience with Java, Rust, C,
-  and Ruby.  Other work and personal project expericne with C++,
+  and Ruby.  Other work and personal project experience with C++,
   JavaScript, and Python.
 - Technologies: :: Linux, Apache Kafka, GraphQL, Docker, InfluxDB,
   Vertica, PostgreSQL.
