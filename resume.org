@@ -65,34 +65,40 @@ still.
 
 * Work Experience
 
+** Cisco Systems
+*** Software Engineering Technical Leader
+*** January 2023 - Current
+
+Software Engineering Technical Leader on the DNS Engineering team.
+Responsible for feature development and health of the Cisco Umbrella
+DNS resolver fleet.
+
 ** Akamai Technologies
 *** /Senior Software Engineer II/
 *** November 2017 \ndash March 2022
 
-- Designed and built a Rust application that reuses existing C++
-  libraries and handles consuming over 10,000 Apache Kafka messages
-  per second, providing near real-time monitoring of our network's
-  provisioned state.
+- Designed and built a Rust application that reuses existing C++ libraries
+  and handles consuming over 10,000 Apache Kafka messages per second,
+  providing near real-time monitoring of our network's provisioned state.
 
-- Engineered a Kafka Streams data aggregation and event detection
-  system that allows our customers to message their subscribers about
-  potential threats, and allows our network to gracefully handle
-  data center fail-over.
+- Engineered a Kafka Streams data aggregation and event detection system
+  that allows our customers to message their subscribers about potential
+  threats, and allows our network to gracefully handle data center
+  fail-over.
 
 ** Nominum, Inc. /(Acquired by Akamai)/
 *** /Senior Staff Engineer/
 *** September 2013 \ndash November 2017
 
 - Designed a lock-free data structure to hold hundreds of thousands of
-  URLs in our HTTP proxy, reducing memory footprint and improving
-  response time.
+  URLs in our HTTP proxy, reducing memory footprint and improving response
+  time.
 
 - Built a customer reporting solution using HPE Vertica and InfluxDB
   capable of sustained ingest of thousands of rows per second.
 
-- Designed and built a RADIUS and DHCP IP Address change tracking
-  system capable of handling over 20,000 IP Address changes per
-  second.
+- Designed and built a RADIUS and DHCP IP Address change tracking system
+  capable of handling over 20,000 IP Address changes per second.
 
 ** Glyde Corporation
 *** /Senior Software Engineer/
@@ -100,9 +106,9 @@ still.
 
 Innovative Consumer-to-Consumer marketplace.
 
-- Designed and built a fraud detection and prevention system that
-  reduced fraudulent activity by 80% and significantly increased
-  customer satisfaction.
+- Designed and built a fraud detection and prevention system that reduced
+  fraudulent activity by 80% and significantly increased customer
+  satisfaction.
 
 - Spearheaded integration of the Glyde Marketplace with PayPal (payment
   and withdrawal), and Twilio (SMS messaging).

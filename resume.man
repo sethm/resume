@@ -41,6 +41,16 @@ Programming, Test-Driven Development, Continuous Delivery,
 Virtualization.
 .RE
 .SH EXPERIENCE
+\fBCisco Systems\fP
+.br
+\fBSoftware Engineering Technical Leader\fP
+.br
+January 2023\(enCurrent
+.PP
+Software Engineering Technical Leader on the DNS Engineering
+team. Responsible for feature development and health of the Cisco Umbrella
+DNS resolver fleet.
+.PP
 \fBAkamai Technologies\fP
 .br
 \fBSenior Software Engineer II\fP
